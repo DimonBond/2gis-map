@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "server": "node ./bin/www",
+    "start": "webpack-dev-server --open --watch"
+  },
+  "dependencies": {
+    "2gis-maps": "^3.4.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cookie-parser": "~1.4.3",
+    "css-loader": "^0.28.11",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.0.4",
+    "morgan": "~1.9.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logic": "^0.12.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0"
+  }
+}
